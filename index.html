@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-      <title>
-      Defenders of the Forest
-    </title>
-    <meta charset="UTF-8">
-     <script src="assets/phaser.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="index.js"></script>
+        <title>Steam stats</title>
     </head>
-    <body><div class="canvas">
-    <script src="js/main.js"></script>
-    </div>
+    <body>
+      <div align="center">
+        <h1>Data Driven Drawing</h1>
+      </div>
+      
+      <div align="center">
+        <svg id="vis" width="400" height="400"></svg>
+      </div>
+      
+      <div align="center">
+        <button type="button" onclick="moveCircles();">Move Circles</button>
+      </div>
     </body>
-
 </html>
